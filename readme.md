@@ -1,5 +1,17 @@
 # Installing Docker, PostgreSQL and DBeaver.
 
+# Table of Contents
+1.0[Installing Docker Hub in Windows Home 11.](## 1.0 Installing Docker Hub in Windows Home 11.)
+1.1[Enabling virtualization on my home computer]### 1.1 Enabling virtualization on my home computer)
+1.2[Running script to bypass Windows Home - Edition.](### 1.2 Running script to bypass Windows Home - Edition.)
+1.3[Updating WSL](### 1.3 Updating WSL)
+1.4[Installing Docker Hub and PostgreSQL on the docker hub.](### 1.4 Installing Docker Hub and PostgreSQL on the docker hub.)
+2.0 [Logging in and creating a instance](## 2.0 Logging in and creating a instance)
+2.1 [Installing and configuring DBeaver.](### 2.1 Installing and configuring DBeaver.)
+2.2 [Connecting to postgreSQL via DBeaver.](### 2.2 Connecting to postgreSQL via DBeaver.)
+2.3 [Making the script](### 2.3 Making the script)
+3.0 [Download links and sources.](## 3. Download links and sources.)
+
 
 
 
@@ -9,7 +21,7 @@
 
 I ran into some problems first, as Windows Home is limited when it comes to virtualization. Had to enable virtualization from BIOS. Rebooted
 
-### 1.2 Running script to 
+### 1.2 Running script to bypass Windows Home - Edition.
 
 Ran a script that allowed me to install HyperV. Found this from [MakeUseOf](https://www.makeuseof.com/install-hyper-v-windows-11-home/)
 
@@ -32,7 +44,7 @@ Pause
 
 Ran the script and rebooted the computer.
 
-### 1.2 Updating WSL
+### 1.3 Updating WSL
 
 Also for I had to update WSL (Windows Subsystem for Linux). This was only one line in CMD. After command I rebooted.
 
@@ -40,7 +52,7 @@ Also for I had to update WSL (Windows Subsystem for Linux). This was only one li
 wsl --install
 ```
 
-### 1.3 Installing Docker Hub and PostgreSQL on the docker hub.
+### 1.4 Installing Docker Hub and PostgreSQL on the docker hub.
 
 These previous steps prevented me to install docker. Finally when everything was installed and updated. Installing docker was fairly easy. I downloaded the hub from their official [website](https://hub.docker.com/). Searched "postgre" and selected the right image.
 
@@ -109,7 +121,7 @@ This opens a document on right side of screen. Lets write ``SELECT now()`` to sh
 
 Completed!
 
-## 3. Download links and sources.
+## 3.0 Download links and sources.
 
 Docker Hub for Windows[DOWNLOAD](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe) <br>
 Documentation for postgres in Docker:[Documentation](https://hub.docker.com/_/postgres) <br>
