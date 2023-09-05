@@ -109,9 +109,9 @@ Completed!
 
 ## 3. Download links and sources.
 
-Docker Hub for Windows[DOWNLOAD](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
-Documentation for postgres in Docker:[Documentation](https://hub.docker.com/_/postgres)
-DBeaver installer for Windows[DOWNLOAD](https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe)
+Docker Hub for Windows[DOWNLOAD](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe) <br>
+Documentation for postgres in Docker:[Documentation](https://hub.docker.com/_/postgres) <br>
+DBeaver installer for Windows[DOWNLOAD](https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe) <br>
 
 
 
