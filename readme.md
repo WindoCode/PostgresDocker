@@ -74,6 +74,54 @@ As we can see in the hub, the container is running. Alternatively we can use com
 ![image](https://github.com/WindoCode/PostgresDocker/assets/110290723/46bdc5b6-2ff3-4d9d-8a0e-3ea6038341ef)
 
 
+### 2.1 Installing and configuring DBeaver.
+
+I downloaded desktop version from DBeavers official [website](https://dbeaver.io/download/). Default install options.
+
+### 2.2 Connecting to postgreSQL via DBeaver.
+
+![image](https://github.com/WindoCode/PostgresDocker/assets/110290723/d69442ad-8143-487b-b4ef-e593735ca12f)
+
+1. Clicked on highlighted connect to database icon.
+2. Selected database "postgreSQL".
+
+host: localhost
+port: Defined when I made the docker instance. In this case "5432".
+database: postgres
+Username: postgres
+Password: configured when making docker instance. In this case "mysecretpassword".
+**OK**
+
+![image](https://github.com/WindoCode/PostgresDocker/assets/110290723/2b2c32b5-a84a-4768-aa73-1a46e9f26eac)
+
+O have connected to the postqre database. Lets make a simple script.
+
+### 2.3 Making the script
+
+Right click our db on selection tab>SQL editor>New SQL script
+![image](https://github.com/WindoCode/PostgresDocker/assets/110290723/7f8d0bf8-0f7b-482f-96b3-7d88159ecc41)
+
+This opens a document on right side of screen. Lets write ``SELECT now()`` to show us current date and time. Run it from play button next to the document.
+
+![image](https://github.com/WindoCode/PostgresDocker/assets/110290723/71323d75-1c6c-4d4c-9ea9-3aad3b13deb0)
+
+Completed!
+
+## 3. Download links and sources.
+
+[Docker Hub for Windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
+[Documentation for postgres in Docker](https://hub.docker.com/_/postgres)
+[DBeaver installer for Windows](https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe)
+
+
+
+
+
+
+
+  
+
+
 
 
 
