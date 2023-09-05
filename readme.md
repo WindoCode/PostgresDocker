@@ -1,19 +1,5 @@
 # Installing Docker, PostgreSQL and DBeaver.
 
-# Table of Contents
-1.0[Installing Docker Hub in Windows Home 11.](## 1.0 Installing Docker Hub in Windows Home 11.)
-1.1[Enabling virtualization on my home computer]### 1.1 Enabling virtualization on my home computer)
-1.2[Running script to bypass Windows Home - Edition.](### 1.2 Running script to bypass Windows Home - Edition.)
-1.3[Updating WSL](### 1.3 Updating WSL)
-1.4[Installing Docker Hub and PostgreSQL on the docker hub.](### 1.4 Installing Docker Hub and PostgreSQL on the docker hub.)
-2.0 [Logging in and creating a instance](## 2.0 Logging in and creating a instance)
-2.1 [Installing and configuring DBeaver.](### 2.1 Installing and configuring DBeaver.)
-2.2 [Connecting to postgreSQL via DBeaver.](### 2.2 Connecting to postgreSQL via DBeaver.)
-2.3 [Making the script](### 2.3 Making the script)
-3.0 [Download links and sources.](## 3. Download links and sources.)
-
-
-
 
 ## 1.0 Installing Docker Hub in Windows Home 11. [Optional if you dont have virtualization off or you have Windows Home edition].
 
