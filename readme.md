@@ -1,7 +1,9 @@
 # Installing Docker, PostgreSQL and DBeaver.
 
 
-## 1.0 Installing Docker Hub in Windows Home 11.
+
+
+## 1.0 Installing Docker Hub in Windows Home 11. [Optional if you dont have virtualization off or you have Windows Home edition].
 
 ### 1.1 Enabling virtualization on my home computer.
 
