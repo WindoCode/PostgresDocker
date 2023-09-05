@@ -42,7 +42,7 @@ wsl --install
 
 These previous steps prevented me to install docker. Finally when everything was installed and updated. Installing docker was fairly easy. I downloaded the hub from their official [website](https://hub.docker.com/). Searched "postgre" and selected the right image.
 
-### Logging in and creating a instance
+## 2.0 Logging in and creating a instance
 
 To access my docker, i had to login. At this point, I was already logged in as I had my hub open on my computer. 
 
